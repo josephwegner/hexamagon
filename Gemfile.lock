@@ -150,7 +150,8 @@ GEM
       byebug (~> 10.0)
       pry (~> 0.10)
     public_suffix (3.0.3)
-    puma (3.12.0)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.0.7)
     rack-protection (2.0.0)
       rack
@@ -337,7 +338,7 @@ DEPENDENCIES
   pg
   premailer-rails
   pry-byebug
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.1.4)
   rails-controller-testing
   redis (~> 3.0)
